@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+.contenedor h1 {
+  font-size: 3rem;
+  color: darkblue;
+}
+
+.contenedor label {
+  font-size: 1.5rem;
+}
+
+.contenedor input {
+  width: 30%;
+  height: 1.5rem;
+}
+
+.contenedor #resultado {
+  font-size: 1.3rem;
+}
+
+
